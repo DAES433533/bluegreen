@@ -5,3 +5,28 @@ dependencies:
   - jupyterlab
   - mystmd
   - jupyterlab-myst
+  - numpy
+  - pandas
+  - xarray
+  - geopandas
+  - cdsapi
+  - s3fs
+  - matplotlib
+  - cartopy
+  - rioxarray
+  - rasterio
+  - concurrent
+  - datetime
+  - PIL
+  - IPython
+  - pyogrio
+  - requests
+  - geoviews
+  - holoviews
+  - bokeh
+  - shapely
+  - UserDefined
+  - metpy
+  - tropycal
+  - CPyS
+  - TempestExtremes
