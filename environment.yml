@@ -16,17 +16,15 @@ dependencies:
   - rioxarray
   - rasterio
   - concurrent
-  - datetime
   - PIL
   - IPython
   - pyogrio
-  - requests
   - geoviews
   - holoviews
   - bokeh
   - shapely
-  - UserDefined
   - metpy
   - tropycal
   - CPyS
   - TempestExtremes
+  - zarr
