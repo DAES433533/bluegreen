@@ -24,7 +24,7 @@ project:
         - file: notebooks/Helene_Genesis_To_Intensification.ipynb
     - title: Storm Surge Impacts and Florida's Vulnerability
       children:
-        - file: notebooks/Helene_Florida_Impacts/ipynb
+        - file: notebooks/Helene_Florida_Impacts.ipynb
     - title: Landfall Analysis
       children:
         - file: notebooks/Helene_Landfall_1.ipynb
