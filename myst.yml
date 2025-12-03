@@ -3,11 +3,14 @@ version: 1
 extends:
   - https://raw.githubusercontent.com/projectpythia/pythia-config/main/pythia.yml
 project:
-  title: Project Pythia Cookbook Template
-  github: https://github.com/projectpythia/cookbook-template
+  title: Hurricane Helene (2024) Prototype
+  github: https://github.com/DAES433533/bluegreen
   authors:
-    - name: The Project Pythia Community
-  copyright: '2024'
+    - name: Anna Walker
+    - name: Thomas Weist
+    - name: Bianca Mendez
+    - name: Ale Garcia
+  copyright: '2025'
   toc:
     - file: README.md
     - title: Preamble
@@ -16,6 +19,33 @@ project:
     - title: Introduction
       children:
         - file: notebooks/notebook-template.ipynb
+    - title: Genesis and Intensification
+      children:
+        - file: notebooks/Helene_Genesis_To_Intensification.ipynb
+    - title: Storm Surge Impacts and Florida's Vulnerability
+      children:
+        - file: notebooks/Helene_Florida_Impacts/ipynb
+    - title: Landfall Analysis
+      children:
+        - file: notebooks/Helene_Landfall_1.ipynb
+    - title: Cyclone Phase Spaace Diagram
+      children:
+        - file: notebooks/Helene_Landfall_2.ipynb
+    - title: Flooding Caused by Helene
+      children:
+        - file: notebooks/helene_flooding.ipynb
+    - title: Landslides Caused by Helene
+      children:
+        - file: notebooks/helene_landslides.ipynb
+    - title: Emergency Impacts
+      children:
+        - file: notebooks/helene_emergency_impacts.ipynb
+    - title: Social Vulnerability
+      children:
+        - file: notebooks/helene_social_vulnerability.ipynb
+    - title: Conclusion
+      children:
+        - file: conclusion.md
   jupyter:
       binder:
         repo: projectpythia/cookbook-template
