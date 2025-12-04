@@ -25,6 +25,3 @@ dependencies:
   - shapely
   - metpy
   - tropycal
-  - pip:
-    - CPyS
-    - TempestExtremes
