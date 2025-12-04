@@ -15,9 +15,6 @@ dependencies:
   - cartopy
   - rioxarray
   - rasterio
-  - concurrent
-  - datetime
-  - PIL
   - IPython
   - pyogrio
   - requests
@@ -25,8 +22,8 @@ dependencies:
   - holoviews
   - bokeh
   - shapely
-  - UserDefined
   - metpy
   - tropycal
-  - CPyS
-  - TempestExtremes
+  - pip:
+    - CPyS
+    - TempestExtremes
