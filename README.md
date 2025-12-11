@@ -12,17 +12,11 @@ This Project Pythia Cookbook robustly explores different facets of Hurricane Hel
 
 ## Motivation
 
-Hurricane Helene was a Category 4 tropical cyclone that made landfall in September 2024. Different states across the United States suffered the impacts of this catastrophic hurricane. The two notebooks, Helene_Genesis_To_Intensification and Helene_Florida_Impacts, examine Hurricane Helene from its early development to landfall, through ERA5 reanalysis, IBTrACS data, storm surge tide gauge observations, and a geographic dataset. The environmental conditions that supported Helene’s rapid intensification, including sea surface temperatures, vertical wind shear, and upper-level flow patterns, were analyzed to evaluate the storm’s accurate track predictions and steady intensification. Then, its impact on Florida’s Gulf Coast was assessed by mapping storm surge against coastal bathymetry and known inundation-prone regions. Together, these analyses link Helene’s genesis and intensification to its coastal hazards and highlight the storm surge vulnerability on the Gulf Coast of Florida. Helene impacted inland regions much more dramatically with flooding, but its deadly impacts on the Florida coastline cannot be overlooked or forgotten either. The tropical Python module was used as part of the landfall and postlandfall of Hurricane Helene. The Helene_Landfall_1 examines the HURDAT2 data, forecast information, and tornado reports. Tropical resulted as a very useful tool. The results show that Helene weakened rapidly after crossing the Florida Big Bend and that most tornado activity occurred east of the storm’s center. On the other hand, the Helene_Landfall_2 focuses on the post-tropical phase, during which the system stalled over Tennessee and interacted with a nearby extratropical cyclone through a Fujiwhara Effect. By combining HURDAT2, ERA5 geopotential fields, TempestExtremes, CPyS, the analysis demonstrated that Helene transitioned from a warm-core system to a cold-core system sometime between 0600 UTC and 1200 UTC on September 28th, 2024. This indicates when the system became post-tropical, where it proceeded to stall over the Southeastern U.S. and experience the Fujiwhara Effect with another extratropical cyclone in the region. The heavy rainfall triggered widespread flooding and landslides across the Appalachian Mountains. The helene_flooding and helene_landslides notebooks help visualize the relationships between rainfall, river discharge, and mass movements in North Carolina. Multiple visualizations were produced to better understand these connections. At the two selected river sites within the mountain chain, the gage height increased at the same time discharge peaked, indicating that flooding was occurring at those locations, peaking on September 28, after the rainfall events. Meanwhile, the helene_landslides notebook shows that most landslides were concentrated near the mountain range, highlighting the relationship between steep slopes and mass movement processes. As a result of the impacts caused by Hurricane Helene, presidential disaster declarations were issued. The helene_emergency_impacts and helene_social_vulnerability examine the emergency management process after Hurricane Helene hit, as well as the social vulnerability of the places most impacted, such as in the Appalachian Mountains. Utilizing Hurricane Helene Recovery Data from the U.S. Census Bureau’s Assessment, Recovery, and Evaluation datasets and Census Data, maps were created to show the extent of Hurricane Helene's damage and the emergency management declarations issued as a result. Relationships between variables were also examined, analyzing connections between power outages, wind swaths, and precipitation. Social vulnerability factors were plotted as well to provide essential contextual details on the severity of the impacts caused by Hurricane Helene.
+Hurricane Helene was a Category 4 tropical cyclone that made landfall in September 2024. Different states across the United States suffered the impacts of this catastrophic hurricane. The two notebooks, Helene_Genesis_To_Intensification and Helene_Florida_Impacts, examine Hurricane Helene from its early development to landfall, through ERA5 reanalysis, IBTrACS data, storm surge tide gauge observations, and a geographic dataset. The environmental conditions that supported Helene’s rapid intensification, including sea surface temperatures, vertical wind shear, and upper-level flow patterns, were analyzed to evaluate the storm’s accurate track predictions and steady intensification. Then, its impact on Florida’s Gulf Coast was assessed by mapping storm surge against coastal bathymetry and known inundation-prone regions. Together, these analyses link Helene’s genesis and intensification to its coastal hazards and highlight the storm surge vulnerability on the Gulf Coast of Florida. Helene impacted inland regions much more dramatically with flooding, but its deadly impacts on the Florida coastline cannot be overlooked or forgotten either. The tropical Python module was used as part of the landfall and postlandfall of Hurricane Helene. The Helene_Landfall_1 examines the HURDAT2 data, forecast information, and tornado reports. Tropical resulted as a very useful tool. The results show that Helene weakened rapidly after crossing the Florida Big Bend and that most tornado activity occurred east of the storm’s center. On the other hand, the Helene_Landfall_2 focuses on the post-tropical phase, during which the system stalled over Tennessee and interacted with a nearby extratropical cyclone through a Fujiwhara Effect. By combining HURDAT2, ERA5 geopotential fields, TempestExtremes, CPyS, the analysis demonstrated that Helene transitioned from a warm-core system to a cold-core system sometime between 0600 UTC and 1200 UTC on September 28th, 2024. This indicates when the system became post-tropical, where it proceeded to stall over the Southeastern U.S. and experience the Fujiwhara Effect with another extratropical cyclone in the region. The heavy rainfall triggered widespread flooding and landslides across the Appalachian Mountains. The helene_flooding and helene_landslides notebooks help visualize the relationships between rainfall, river discharge, and mass movements in North Carolina. Multiple visualizations were produced to better understand these connections. At the two selected river sites within the mountain chain, the gage height increased at the same time discharge peaked, indicating that flooding was occurring at those locations, peaking on September 28, after the rainfall events. Meanwhile, the helene_landslides notebook shows that most landslides were concentrated near the mountain range, highlighting the relationship between steep slopes and mass movement processes. As a result of the impacts caused by Hurricane Helene, presidential disaster declarations were issued. The helene_emergency_impacts and helene_social_vulnerability examine the emergency management process after Hurricane Helene hit, as well as the social vulnerability of the places most impacted, such as in the Appalachian Mountains. Utilizing Hurricane Helene Recovery Data from the U.S. Census Bureau’s Assessment, Recovery, and Evaluation datasets and Census Data, maps were created to show the extent of Hurricane Helene's damage and the emergency management declarations and recovery program assistance registrations issued as a result. Spatial relationships between variables were also examined, analyzing connections between power outages, wind swaths, and precipitation. Social vulnerability factors were plotted as well to provide essential contextual details on the severity of the impacts caused by Hurricane Helene.
 
 ## Authors
 
 [Alejandra Garcia](https://github.com/alegarcia1417), [Anna Walker](https://github.com/jwalk618), [Bianca Mendez Cruz](https://github.com/BiancaV247), [Thomas Weist](https://github.com/tweist27)
-
-### Contributors
-
-<a href="https://github.com/ProjectPythia/cookbook-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ProjectPythia/cookbook-template" />
-</a>
 
 ## Structure
 
@@ -42,7 +36,7 @@ This section includes notebooks helene_flooding and helene_landslides. The noteb
 
 ### Helene Emergency Management and Social Impacts
 
-This section includes notebooks helene_emergency_impacts and helene_social_vulnerability. The notebooks within this section examine the emergency management response to Hurricane Helene by looking at presidential disaster declarations and physical impacts caused by Hurricane Helene, such as power outages, wind swaths, and precipitation. Socioeconomic factors, rurality, age, and other social vulnerability variables were also analyzed and plotted geographically through the use of the Hurricane Helene Recovery Data from the U.S. Census Bureau’s Assessment, Recovery, and Evaluation datasets and Census Data.
+This section includes notebooks helene_emergency_impacts and helene_social_vulnerability. The notebooks within this section examine the emergency management response to Hurricane Helene by looking at presidential disaster declarations, FEMA recovery assistance programs, and physical impacts caused by Hurricane Helene, such as power outages, wind swaths, and precipitation. Socioeconomic factors, rurality, age, and other social vulnerability variables were also analyzed and plotted geographically through the use of the Hurricane Helene Recovery Data from the U.S. Census Bureau’s Assessment, Recovery, and Evaluation datasets and Census Data.
 
 ## Running the Notebooks
 
@@ -74,22 +68,20 @@ executable book chapter.
 
 If you are interested in running this material locally on your computer, you will need to follow this workflow:
 
-(Replace "cookbook-example" with the title of your cookbooks)
-
-1. Clone the `https://github.com/ProjectPythia/cookbook-example` repository:
+1. Clone the `https://github.com/ProjectPythia/helene_cookbook` repository:
 
    ```bash
-    git clone https://github.com/ProjectPythia/cookbook-example.git
+    git clone https://github.com/ProjectPythia/helene_cookbook.git
    ```
 
-1. Move into the `cookbook-example` directory
+1. Move into the `helene_cookbook` directory
    ```bash
-   cd cookbook-example
+   cd helene_cookbook
    ```
 1. Create and activate your conda environment from the `environment.yml` file
    ```bash
    conda env create -f environment.yml
-   conda activate cookbook-example
+   conda activate helene_cookbook
    ```
 1. Move into the `notebooks` directory and start up Jupyterlab
    ```bash
