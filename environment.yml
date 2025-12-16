@@ -2,7 +2,6 @@ name: cookbook-dev
 channels:
   - conda-forge
 dependencies:
-  - python>=3.13
   - jupyterlab
   - mystmd
   - jupyterlab-myst
@@ -16,12 +15,17 @@ dependencies:
   - cartopy
   - rioxarray
   - rasterio
+  - concurrent
+  - PIL
   - IPython
   - pyogrio
-  - requests
   - geoviews
   - holoviews
   - bokeh
   - shapely
   - metpy
   - tropycal
+  - CPyS
+  - TempestExtremes
+  - zarr
+  - seaborn

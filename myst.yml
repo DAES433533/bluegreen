@@ -28,7 +28,7 @@ project:
     - title: Landfall Analysis
       children:
         - file: notebooks/Helene_Landfall_1.ipynb
-    - title: Cyclone Phase Spaace Diagram
+    - title: Cyclone Phase Space Diagram
       children:
         - file: notebooks/Helene_Landfall_2.ipynb
     - title: Flooding Caused by Helene
@@ -45,7 +45,7 @@ project:
         - file: notebooks/helene_social_vulnerability.ipynb
     - title: Conclusion
       children:
-        - file: conclusion.md
+        - file: Conclusion.md
   jupyter:
       binder:
         repo: projectpythia/cookbook-template
